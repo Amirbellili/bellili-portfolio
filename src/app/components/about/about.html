@@ -1,0 +1,67 @@
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">
+        {{ 'ABOUT.TITLE' | translate }} <span class="highlight">{{ 'ABOUT.ME' | translate }}</span>
+      </h2>
+      <p class="section-subtitle">{{ 'ABOUT.SUBTITLE' | translate }}</p>
+    </div>
+
+    <div class="about-content">
+      <div class="about-text">
+        <h3>{{ 'ABOUT.NAME_LABEL' | translate }}</h3>
+        <h4 class="role">{{ 'ABOUT.ROLE' | translate }}</h4>
+        <p>{{ 'ABOUT.DESCRIPTION_1' | translate }}</p>
+        <p>{{ 'ABOUT.DESCRIPTION_2' | translate }}</p>
+
+        <div class="info-grid">
+          <div class="info-item">
+            <span class="label">{{ 'ABOUT.INFO.NAME' | translate }}</span>
+            <span class="value">{{ 'ABOUT.VALUES.NAME' | translate }}</span>
+          </div>
+          <div class="info-item">
+            <span class="label">{{ 'ABOUT.INFO.EMAIL' | translate }}</span>
+            <span class="value">{{ 'ABOUT.VALUES.EMAIL' | translate }}</span>
+          </div>
+          <div class="info-item">
+            <span class="label">{{ 'ABOUT.INFO.LOCATION' | translate }}</span>
+            <span class="value">{{ 'ABOUT.VALUES.LOCATION' | translate }}</span>
+          </div>
+          <div class="info-item">
+            <span class="label">{{ 'ABOUT.INFO.EXPERIENCE' | translate }}</span>
+            <span class="value">{{ 'ABOUT.VALUES.EXPERIENCE' | translate }}</span>
+          </div>
+        </div>
+
+<button (click)="downloadCV()" class="btn btn-primary">
+  {{ 'ABOUT.DOWNLOAD_CV' | translate }} 📄
+</button>      </div>
+
+      <div class="about-skills">
+        <h3>{{ 'ABOUT.SKILLS_TITLE' | translate }}</h3>
+        <div class="skills-list">
+          <div class="skill-item" *ngFor="let skill of skills">
+            <div class="skill-header">
+              <span class="skill-name">{{ skill.name | translate }}</span>
+              <span class="skill-percentage">{{ skill.percentage }}%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" [style.width.%]="skill.percentage"></div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="experience-title">{{ 'ABOUT.EXPERIENCE_TITLE' | translate }}</h3>
+        <div class="experience-list">
+          <div class="experience-item" *ngFor="let exp of experiences">
+            <div class="exp-year">{{ exp.year }}</div>
+            <div class="exp-details">
+              <h4>{{ exp.title }}</h4>
+              <p>{{ exp.company }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,130 @@
+{
+  "HEADER": {
+    "HOME": "HOME",
+    "ABOUT": "ABOUT",
+    "SERVICE": "SERVICE",
+    "PORTFOLIO": "PORTFOLIO",
+    "CONTACT": "CONTACT",
+    "HIRE_ME": "HIRE ME"
+  },
+  "HERO": {
+    "GREETING": "HELLO THERE, WELCOME TO MY SITE",
+    "NAME": "I'm Bellili Amir",
+    "ROLE": "A Full Stack Developer",
+    "DESIGNER": "& UI/UX Designer",
+    "SEE_PORTFOLIO": "SEE PORTFOLIO",
+    "CONTACT_ME": "CONTACT ME"
+  },
+  "ABOUT": {
+    "TITLE": "About",
+    "ME": "Me",
+    "SUBTITLE": "Get to know me better",
+    "NAME_LABEL": "I'm Bellili Amir",
+    "ROLE": "Full Stack Developer & UI/UX Designer",
+    "DESCRIPTION_1": "Passionate full-stack developer with expertise in modern web technologies. I specialize in building scalable applications using Angular, React, Laravel, and Node.js. With a strong focus on user experience, I create intuitive and engaging interfaces that solve real-world problems.",
+    "DESCRIPTION_2": "My journey in software development started in 2022, and since then, I've worked on numerous projects ranging from e-commerce platforms to enterprise applications. I'm constantly learning and adapting to new technologies to deliver the best solutions.",
+    "INFO": {
+      "NAME": "Name:",
+      "EMAIL": "Email:",
+      "LOCATION": "Location:",
+      "EXPERIENCE": "Experience:"
+    },
+    "VALUES": {
+      "NAME": "Bellili Amir",
+      "EMAIL": "amirbellili12346@gmail.com",
+      "LOCATION": "sbeitla, kassrine, Tunisia",
+      "EXPERIENCE": "4+ Years"
+    },
+    "DOWNLOAD_CV": "Download CV",
+    "SKILLS_TITLE": "My Skills",
+    "EXPERIENCE_TITLE": "Experience",
+    "SKILLS": {
+      "FRONTEND": "Frontend Development",
+      "BACKEND": "Backend Development",
+      "UIUX": "UI/UX Design",
+      "MOBILE": "Mobile Development"
+    }
+  },
+  "SERVICES": {
+    "TITLE": "My",
+    "SERVICES": "Services",
+    "SUBTITLE": "What I can do for you",
+    "WEB_DEV": {
+      "TITLE": "Web Development",
+      "DESC": "Building responsive and scalable web applications using modern frameworks like Angular, React, and Laravel."
+    },
+    "MOBILE_DEV": {
+      "TITLE": "Mobile Development",
+      "DESC": "Creating native and cross-platform mobile applications with Flutter and React Native."
+    },
+    "UIUX": {
+      "TITLE": "UI/UX Design",
+      "DESC": "Designing beautiful and intuitive user interfaces with Figma and Adobe Creative Suite."
+    },
+    "BACKEND": {
+      "TITLE": "Backend Development",
+      "DESC": "Developing robust APIs and server-side applications with Node.js, Laravel, and NestJS."
+    },
+    "CLOUD": {
+      "TITLE": "Cloud Solutions",
+      "DESC": "Deploying and managing applications on cloud platforms like AWS, Firebase, and Azure."
+    },
+    "CONSULTING": {
+      "TITLE": "Consulting",
+      "DESC": "Providing technical consultation and architecture design for your next big project."
+    }
+  },
+  "PORTFOLIO": {
+    "TITLE": "My",
+    "PORTFOLIO": "Portfolio",
+    "SUBTITLE": "Some of my recent projects",
+    "PROJECTS": {
+      "TICKET": {
+        "TITLE": "Ticket Platform",
+        "CATEGORY": "Full Stack Application",
+        "DESC": "A comprehensive ticket management system with backend and frontend integration for event booking and management."
+      },
+      "ECOMMERCE": {
+        "TITLE": "E-Commerce Laravel",
+        "CATEGORY": "Web Application",
+        "DESC": "A full-featured e-commerce platform built with Laravel and Blade templating, including product management, cart, and checkout."
+      },
+      "PORTFOLIO_SITE": {
+        "TITLE": "Portfolio Website",
+        "CATEGORY": "Personal Website",
+        "DESC": "Modern and responsive portfolio website showcasing my skills, projects, and experience as a Full Stack Developer."
+      }
+    },
+    "CODE": "Code",
+    "LIVE": "Live"
+  },
+  "TESTIMONIALS": {
+    "TITLE": "Client",
+    "TESTIMONIALS": "Testimonials",
+    "SUBTITLE": "What people say about my work"
+  },
+  "CONTACT": {
+    "TITLE": "Get In",
+    "TOUCH": "Touch",
+    "SUBTITLE": "Let's work together",
+    "INFO_TITLE": "Contact Information",
+    "INFO_DESC": "Feel free to reach out to me for any inquiries or project collaborations.",
+    "EMAIL": "Email",
+    "PHONE": "Phone",
+    "LOCATION": "Location",
+    "FORM": {
+      "NAME": "Your Name",
+      "EMAIL": "Your Email",
+      "SUBJECT": "Subject",
+      "MESSAGE": "Your Message",
+      "SEND": "Send Message"
+    }
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Full Stack Developer & UI/UX Designer passionate about creating beautiful and functional web applications.",
+    "QUICK_LINKS": "Quick Links",
+    "SERVICES": "Services",
+    "CONTACT_INFO": "Contact Info",
+    "RIGHTS": "All Rights Reserved."
+  }
+}

@@ -1,0 +1,110 @@
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">
+        {{ 'CONTACT.TITLE' | translate }} <span class="highlight">{{ 'CONTACT.TOUCH' | translate }}</span>
+      </h2>
+      <p class="section-subtitle">{{ 'CONTACT.SUBTITLE' | translate }}</p>
+    </div>
+
+    <div class="contact-content">
+      <div class="contact-info">
+        <h3>{{ 'CONTACT.INFO_TITLE' | translate }}</h3>
+        <p class="intro">{{ 'CONTACT.INFO_DESC' | translate }}</p>
+
+        <div class="info-items">
+          <div class="info-item">
+            <div class="icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="details">
+              <h4>{{ 'CONTACT.EMAIL' | translate }}</h4>
+              <p>amirbellili12346@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="details">
+              <h4>{{ 'CONTACT.PHONE' | translate }}</h4>
+              <p>+216 52 015 289</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="details">
+              <h4>{{ 'CONTACT.LOCATION' | translate }}</h4>
+              <p>sbeitla,kassrine,Tunisia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrapper">
+        <!-- Messages de succès/erreur -->
+        <div class="alert alert-success" *ngIf="submitSuccess">
+          <i class="fas fa-check-circle"></i> {{ responseMessage }}
+        </div>
+
+        <div class="alert alert-error" *ngIf="submitError">
+          <i class="fas fa-exclamation-circle"></i> {{ responseMessage }}
+        </div>
+
+        <form class="contact-form" (ngSubmit)="onSubmit()">
+          <div class="form-row">
+            <div class="form-group">
+              <input 
+                type="text" 
+                [(ngModel)]="contactForm.name"
+                name="name"
+                [placeholder]="'CONTACT.FORM.NAME' | translate"
+                [disabled]="isSubmitting"
+                required>
+            </div>
+            <div class="form-group">
+              <input 
+                type="email" 
+                [(ngModel)]="contactForm.email"
+                name="email"
+                [placeholder]="'CONTACT.FORM.EMAIL' | translate"
+                [disabled]="isSubmitting"
+                required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input 
+              type="text" 
+              [(ngModel)]="contactForm.subject"
+              name="subject"
+              [placeholder]="'CONTACT.FORM.SUBJECT' | translate"
+              [disabled]="isSubmitting"
+              required>
+          </div>
+
+          <div class="form-group">
+            <textarea 
+              [(ngModel)]="contactForm.message"
+              name="message"
+              [placeholder]="'CONTACT.FORM.MESSAGE' | translate"
+              rows="6"
+              [disabled]="isSubmitting"
+              required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" [disabled]="isSubmitting">
+            <i class="fas fa-spinner fa-spin" *ngIf="isSubmitting"></i>
+            <i class="fas fa-paper-plane" *ngIf="!isSubmitting"></i> 
+            <span *ngIf="!isSubmitting">{{ 'CONTACT.FORM.SEND' | translate }}</span>
+            <span *ngIf="isSubmitting">{{ 'CONTACT.FORM.SENDING' | translate }}</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

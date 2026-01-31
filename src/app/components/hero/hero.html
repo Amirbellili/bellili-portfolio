@@ -1,0 +1,53 @@
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h3 class="greeting">{{ 'HERO.GREETING' | translate }}</h3>
+    <h1>{{ 'HERO.NAME' | translate }}</h1>
+    <h2 class="role">{{ 'HERO.ROLE' | translate }}</h2>
+    
+    <div class="tech-stack">
+      <div class="tech-icon" 
+           *ngFor="let tech of techStackRow1" 
+           [title]="tech.title">
+        <img [src]="tech.icon" [alt]="tech.name" class="tech-logo">
+      </div>
+    </div>
+
+    <div class="tech-stack">
+      <div class="tech-icon" 
+           *ngFor="let tech of techStackRow2" 
+           [title]="tech.title">
+        <img [src]="tech.icon" [alt]="tech.name" class="tech-logo">
+      </div>
+    </div>
+
+    <div class="designer-section">
+      <h3>{{ 'HERO.DESIGNER' | translate }}</h3>
+      <div class="design-tools">
+        <div class="tech-icon" 
+             *ngFor="let tool of designTools" 
+             [title]="tool.title">
+          <img [src]="tool.icon" [alt]="tool.name" class="tech-logo">
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-buttons">
+      <a href="#portfolio" class="btn btn-primary">
+        {{ 'HERO.SEE_PORTFOLIO' | translate }} 📂
+      </a>
+      <a href="#contact" class="btn btn-secondary">
+        {{ 'HERO.CONTACT_ME' | translate }} 💬
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <div class="profile-container">
+      <div class="profile-frame">
+        <img src="images/profile.jpg" 
+             alt="Bellili Amir" 
+             class="profile-image">
+      </div>
+    </div>
+  </div>
+</section>

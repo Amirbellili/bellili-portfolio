@@ -24,9 +24,9 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ]
+"styles": [
+  "src/styles.scss"
+]
           },
           "configurations": {
             "production": {
@@ -75,18 +75,26 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+"assets": [
+  {
+    "glob": "**/*",
+    "input": "public"
+  },
+  {
+    "glob": "**/*",
+    "input": "src/assets",
+    "output": "assets"
+  }
+],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fc8b8ab7-3ae8-4a0a-8295-03831f5a2860"
   }
 }

@@ -1,0 +1,36 @@
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">
+        {{ 'PORTFOLIO.TITLE' | translate }} <span class="highlight">{{ 'PORTFOLIO.PORTFOLIO' | translate }}</span>
+      </h2>
+      <p class="section-subtitle">{{ 'PORTFOLIO.SUBTITLE' | translate }}</p>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="project-card" *ngFor="let project of projects">
+        <div class="project-image">
+          <img [src]="project.image" [alt]="project.title | translate">
+          <div class="project-overlay">
+            <h3>{{ project.title | translate }}</h3>
+            <p class="category">{{ project.category | translate }}</p>
+            <div class="project-links">
+              <a *ngIf="project.githubLink" [href]="project.githubLink" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> {{ 'PORTFOLIO.CODE' | translate }}
+              </a>
+              <a *ngIf="project.liveLink" [href]="project.liveLink" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> {{ 'PORTFOLIO.LIVE' | translate }}
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <p class="description">{{ project.description | translate }}</p>
+          <div class="technologies">
+            <span class="tech-tag" *ngFor="let tech of project.technologies">{{ tech }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

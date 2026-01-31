@@ -1,0 +1,130 @@
+{
+  "HEADER": {
+    "HOME": "ホーム",
+    "ABOUT": "について",
+    "SERVICE": "サービス",
+    "PORTFOLIO": "ポートフォリオ",
+    "CONTACT": "お問い合わせ",
+    "HIRE_ME": "採用する"
+  },
+  "HERO": {
+    "GREETING": "こんにちは、私のサイトへようこそ",
+    "NAME": "ベリリ・アミールです",
+    "ROLE": "フルスタック開発者",
+    "DESIGNER": "およびUI/UXデザイナー",
+    "SEE_PORTFOLIO": "ポートフォリオを見る",
+    "CONTACT_ME": "お問い合わせ"
+  },
+  "ABOUT": {
+    "TITLE": "私",
+    "ME": "について",
+    "SUBTITLE": "もっと私を知ってください",
+    "NAME_LABEL": "ベリリ・アミールです",
+    "ROLE": "フルスタック開発者およびUI/UXデザイナー",
+    "DESCRIPTION_1": "最新のウェブ技術に精通した情熱的なフルスタック開発者です。Angular、React、Laravel、Node.jsを使用したスケーラブルなアプリケーションの構築を専門としています。ユーザーエクスペリエンスに重点を置き、実際の問題を解決する直感的で魅力的なインターフェースを作成します。",
+    "DESCRIPTION_2": "ソフトウェア開発の旅は2022年に始まり、それ以来、eコマースプラットフォームからエンタープライズアプリケーションまで、数多くのプロジェクトに携わってきました。最高のソリューションを提供するために、常に学び、新しい技術に適応しています。",
+    "INFO": {
+      "NAME": "名前：",
+      "EMAIL": "メール：",
+      "LOCATION": "場所：",
+      "EXPERIENCE": "経験："
+    },
+    "VALUES": {
+      "NAME": "ベリリ・アミール",
+      "EMAIL": "amirbellili12346@gmail.com",
+      "LOCATION": "スベイトラ、カスリーヌ、チュニジア",
+      "EXPERIENCE": "4年以上"
+    },
+    "DOWNLOAD_CV": "履歴書をダウンロード",
+    "SKILLS_TITLE": "私のスキル",
+    "EXPERIENCE_TITLE": "経験",
+    "SKILLS": {
+      "FRONTEND": "フロントエンド開発",
+      "BACKEND": "バックエンド開発",
+      "UIUX": "UI/UXデザイン",
+      "MOBILE": "モバイル開発"
+    }
+  },
+  "SERVICES": {
+    "TITLE": "私の",
+    "SERVICES": "サービス",
+    "SUBTITLE": "あなたのためにできること",
+    "WEB_DEV": {
+      "TITLE": "ウェブ開発",
+      "DESC": "Angular、React、Laravelなどの最新フレームワークを使用した、レスポンシブでスケーラブルなウェブアプリケーションの構築。"
+    },
+    "MOBILE_DEV": {
+      "TITLE": "モバイル開発",
+      "DESC": "FlutterとReact Nativeを使用したネイティブおよびクロスプラットフォームのモバイルアプリケーションの作成。"
+    },
+    "UIUX": {
+      "TITLE": "UI/UXデザイン",
+      "DESC": "FigmaとAdobe Creative Suiteを使用した、美しく直感的なユーザーインターフェースのデザイン。"
+    },
+    "BACKEND": {
+      "TITLE": "バックエンド開発",
+      "DESC": "Node.js、Laravel、NestJSを使用した堅牢なAPIとサーバーサイドアプリケーションの開発。"
+    },
+    "CLOUD": {
+      "TITLE": "クラウドソリューション",
+      "DESC": "AWS、Firebase、Azureなどのクラウドプラットフォームでのアプリケーションの展開と管理。"
+    },
+    "CONSULTING": {
+      "TITLE": "コンサルティング",
+      "DESC": "次の大きなプロジェクトのための技術コンサルティングとアーキテクチャ設計の提供。"
+    }
+  },
+  "PORTFOLIO": {
+    "TITLE": "私の",
+    "PORTFOLIO": "ポートフォリオ",
+    "SUBTITLE": "最近のプロジェクトのいくつか",
+    "PROJECTS": {
+      "TICKET": {
+        "TITLE": "チケットプラットフォーム",
+        "CATEGORY": "フルスタックアプリケーション",
+        "DESC": "イベント予約と管理のためのバックエンドとフロントエンドの統合を備えた包括的なチケット管理システム。"
+      },
+      "ECOMMERCE": {
+        "TITLE": "Eコマース Laravel",
+        "CATEGORY": "ウェブアプリケーション",
+        "DESC": "製品管理、カート、チェックアウトを含む、LaravelとBladeテンプレートで構築されたフル機能のeコマースプラットフォーム。"
+      },
+      "PORTFOLIO_SITE": {
+        "TITLE": "ポートフォリオウェブサイト",
+        "CATEGORY": "個人ウェブサイト",
+        "DESC": "フルスタック開発者としての私のスキル、プロジェクト、経験を紹介する最新のレスポンシブポートフォリオウェブサイト。"
+      }
+    },
+    "CODE": "コード",
+    "LIVE": "ライブ"
+  },
+  "TESTIMONIALS": {
+    "TITLE": "クライアント",
+    "TESTIMONIALS": "の声",
+    "SUBTITLE": "私の仕事について人々が言うこと"
+  },
+  "CONTACT": {
+    "TITLE": "お問い合わせ",
+    "TOUCH": "ください",
+    "SUBTITLE": "一緒に働きましょう",
+    "INFO_TITLE": "連絡先情報",
+    "INFO_DESC": "お問い合わせやプロジェクトのコラボレーションについて、お気軽にご連絡ください。",
+    "EMAIL": "メール",
+    "PHONE": "電話",
+    "LOCATION": "場所",
+    "FORM": {
+      "NAME": "お名前",
+      "EMAIL": "メールアドレス",
+      "SUBJECT": "件名",
+      "MESSAGE": "メッセージ",
+      "SEND": "メッセージを送信"
+    }
+  },
+  "FOOTER": {
+    "DESCRIPTION": "美しく機能的なウェブアプリケーションの作成に情熱を持つフルスタック開発者およびUI/UXデザイナー。",
+    "QUICK_LINKS": "クイックリンク",
+    "SERVICES": "サービス",
+    "CONTACT_INFO": "連絡先情報",
+    "RIGHTS": "すべての権利予約済み。"
+  }
+}

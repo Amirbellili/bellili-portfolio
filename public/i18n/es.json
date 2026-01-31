@@ -1,0 +1,130 @@
+{
+  "HEADER": {
+    "HOME": "INICIO",
+    "ABOUT": "ACERCA DE",
+    "SERVICE": "SERVICIOS",
+    "PORTFOLIO": "PORTAFOLIO",
+    "CONTACT": "CONTACTO",
+    "HIRE_ME": "CONTRÁTAME"
+  },
+  "HERO": {
+    "GREETING": "HOLA, BIENVENIDO A MI SITIO",
+    "NAME": "Soy Bellili Amir",
+    "ROLE": "Un Desarrollador Full Stack",
+    "DESIGNER": "y Diseñador UI/UX",
+    "SEE_PORTFOLIO": "VER PORTAFOLIO",
+    "CONTACT_ME": "CONTÁCTAME"
+  },
+  "ABOUT": {
+    "TITLE": "Acerca de",
+    "ME": "Mí",
+    "SUBTITLE": "Conóceme mejor",
+    "NAME_LABEL": "Soy Bellili Amir",
+    "ROLE": "Desarrollador Full Stack y Diseñador UI/UX",
+    "DESCRIPTION_1": "Desarrollador full-stack apasionado con experiencia en tecnologías web modernas. Me especializo en construir aplicaciones escalables usando Angular, React, Laravel y Node.js. Con un fuerte enfoque en la experiencia del usuario, creo interfaces intuitivas y atractivas que resuelven problemas del mundo real.",
+    "DESCRIPTION_2": "Mi viaje en el desarrollo de software comenzó en 2022, y desde entonces, he trabajado en numerosos proyectos que van desde plataformas de comercio electrónico hasta aplicaciones empresariales. Estoy constantemente aprendiendo y adaptándome a nuevas tecnologías para ofrecer las mejores soluciones.",
+    "INFO": {
+      "NAME": "Nombre:",
+      "EMAIL": "Correo:",
+      "LOCATION": "Ubicación:",
+      "EXPERIENCE": "Experiencia:"
+    },
+    "VALUES": {
+      "NAME": "Bellili Amir",
+      "EMAIL": "amirbellili12346@gmail.com",
+      "LOCATION": "sbeitla, kassrine, Túnez",
+      "EXPERIENCE": "4+ Años"
+    },
+    "DOWNLOAD_CV": "Descargar CV",
+    "SKILLS_TITLE": "Mis Habilidades",
+    "EXPERIENCE_TITLE": "Experiencia",
+    "SKILLS": {
+      "FRONTEND": "Desarrollo Frontend",
+      "BACKEND": "Desarrollo Backend",
+      "UIUX": "Diseño UI/UX",
+      "MOBILE": "Desarrollo Móvil"
+    }
+  },
+  "SERVICES": {
+    "TITLE": "Mis",
+    "SERVICES": "Servicios",
+    "SUBTITLE": "Lo que puedo hacer por ti",
+    "WEB_DEV": {
+      "TITLE": "Desarrollo Web",
+      "DESC": "Construcción de aplicaciones web responsivas y escalables usando frameworks modernos como Angular, React y Laravel."
+    },
+    "MOBILE_DEV": {
+      "TITLE": "Desarrollo Móvil",
+      "DESC": "Creación de aplicaciones móviles nativas y multiplataforma con Flutter y React Native."
+    },
+    "UIUX": {
+      "TITLE": "Diseño UI/UX",
+      "DESC": "Diseño de interfaces de usuario hermosas e intuitivas con Figma y Adobe Creative Suite."
+    },
+    "BACKEND": {
+      "TITLE": "Desarrollo Backend",
+      "DESC": "Desarrollo de APIs robustas y aplicaciones del lado del servidor con Node.js, Laravel y NestJS."
+    },
+    "CLOUD": {
+      "TITLE": "Soluciones en la Nube",
+      "DESC": "Implementación y gestión de aplicaciones en plataformas en la nube como AWS, Firebase y Azure."
+    },
+    "CONSULTING": {
+      "TITLE": "Consultoría",
+      "DESC": "Proporcionar consultoría técnica y diseño de arquitectura para su próximo gran proyecto."
+    }
+  },
+  "PORTFOLIO": {
+    "TITLE": "Mi",
+    "PORTFOLIO": "Portafolio",
+    "SUBTITLE": "Algunos de mis proyectos recientes",
+    "PROJECTS": {
+      "TICKET": {
+        "TITLE": "Plataforma de Tickets",
+        "CATEGORY": "Aplicación Full Stack",
+        "DESC": "Un sistema completo de gestión de tickets con integración de backend y frontend para reserva y gestión de eventos."
+      },
+      "ECOMMERCE": {
+        "TITLE": "E-Commerce Laravel",
+        "CATEGORY": "Aplicación Web",
+        "DESC": "Una plataforma de comercio electrónico completa construida con Laravel y plantillas Blade, incluyendo gestión de productos, carrito y pago."
+      },
+      "PORTFOLIO_SITE": {
+        "TITLE": "Sitio Web de Portafolio",
+        "CATEGORY": "Sitio Web Personal",
+        "DESC": "Sitio web de portafolio moderno y responsivo que muestra mis habilidades, proyectos y experiencia como Desarrollador Full Stack."
+      }
+    },
+    "CODE": "Código",
+    "LIVE": "En Vivo"
+  },
+  "TESTIMONIALS": {
+    "TITLE": "Testimonios de",
+    "TESTIMONIALS": "Clientes",
+    "SUBTITLE": "Lo que la gente dice sobre mi trabajo"
+  },
+  "CONTACT": {
+    "TITLE": "Ponte en",
+    "TOUCH": "Contacto",
+    "SUBTITLE": "Trabajemos juntos",
+    "INFO_TITLE": "Información de Contacto",
+    "INFO_DESC": "No dudes en contactarme para cualquier consulta o colaboración en proyectos.",
+    "EMAIL": "Correo",
+    "PHONE": "Teléfono",
+    "LOCATION": "Ubicación",
+    "FORM": {
+      "NAME": "Tu Nombre",
+      "EMAIL": "Tu Correo",
+      "SUBJECT": "Asunto",
+      "MESSAGE": "Tu Mensaje",
+      "SEND": "Enviar Mensaje"
+    }
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Desarrollador Full Stack y Diseñador UI/UX apasionado por crear aplicaciones web hermosas y funcionales.",
+    "QUICK_LINKS": "Enlaces Rápidos",
+    "SERVICES": "Servicios",
+    "CONTACT_INFO": "Información de Contacto",
+    "RIGHTS": "Todos los derechos reservados."
+  }
+}

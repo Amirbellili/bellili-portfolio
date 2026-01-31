@@ -1,0 +1,108 @@
+{
+  "HEADER": {
+    "HOME": "ACCUEIL",
+    "ABOUT": "À PROPOS",
+    "SERVICE": "SERVICES",
+    "PORTFOLIO": "PORTFOLIO",
+    "CONTACT": "CONTACT",
+    "HIRE_ME": "EMBAUCHEZ-MOI"
+  },
+  "HERO": {
+    "GREETING": "BONJOUR, BIENVENUE SUR MON SITE",
+    "NAME": "Je suis Bellili Amir",
+    "ROLE": "Un Développeur Full Stack",
+    "DESIGNER": "& Designer UI/UX",
+    "SEE_PORTFOLIO": "VOIR LE PORTFOLIO",
+    "CONTACT_ME": "ME CONTACTER"
+  },
+  "ABOUT": {
+    "TITLE": "À propos de",
+    "ME": "Moi",
+    "SUBTITLE": "Apprenez à me connaître",
+    "NAME_LABEL": "Je suis Bellili Amir",
+    "ROLE": "Développeur Full Stack & Designer UI/UX",
+    "DESCRIPTION_1": "Développeur full-stack passionné avec une expertise en technologies web modernes. Je me spécialise dans la création d'applications évolutives utilisant Angular, React, Laravel et Node.js. Avec un fort accent sur l'expérience utilisateur, je crée des interfaces intuitives et engageantes qui résolvent des problèmes réels.",
+    "DESCRIPTION_2": "Mon parcours dans le développement logiciel a commencé en 2022, et depuis, j'ai travaillé sur de nombreux projets allant des plateformes e-commerce aux applications d'entreprise. J'apprends et m'adapte constamment aux nouvelles technologies pour offrir les meilleures solutions.",
+    "INFO": {
+      "NAME": "Nom :",
+      "EMAIL": "Email :",
+      "LOCATION": "Localisation :",
+      "EXPERIENCE": "Expérience :"
+    },
+    "VALUES": {
+      "NAME": "Bellili Amir",
+      "EMAIL": "amirbellili12346@gmail.com",
+      "LOCATION": "sbeitla, kassrine, Tunisie",
+      "EXPERIENCE": "4+ Ans"
+    },
+    "DOWNLOAD_CV": "Télécharger CV",
+    "SKILLS_TITLE": "Mes Compétences",
+    "EXPERIENCE_TITLE": "Expérience",
+    "SKILLS": {
+      "FRONTEND": "Développement Frontend",
+      "BACKEND": "Développement Backend",
+      "UIUX": "Design UI/UX",
+      "MOBILE": "Développement Mobile"
+    }
+  },
+  "SERVICES": {
+    "TITLE": "Mes",
+    "SERVICES": "Services",
+    "SUBTITLE": "Ce que je peux faire pour vous",
+    "WEB_DEV": {
+      "TITLE": "Développement Web",
+      "DESC": "Construction d'applications web réactives et évolutives utilisant des frameworks modernes comme Angular, React et Laravel."
+    },
+    "MOBILE_DEV": {
+      "TITLE": "Développement Mobile",
+      "DESC": "Création d'applications mobiles natives et multiplateformes avec Flutter et React Native."
+    },
+    "UIUX": {
+      "TITLE": "Design UI/UX",
+      "DESC": "Conception d'interfaces utilisateur belles et intuitives avec Figma et Adobe Creative Suite."
+    },
+    "BACKEND": {
+      "TITLE": "Développement Backend",
+      "DESC": "Développement d'APIs robustes et d'applications côté serveur avec Node.js, Laravel et NestJS."
+    },
+    "CLOUD": {
+      "TITLE": "Solutions Cloud",
+      "DESC": "Déploiement et gestion d'applications sur des plateformes cloud comme AWS, Firebase et Azure."
+    },
+    "CONSULTING": {
+      "TITLE": "Conseil",
+      "DESC": "Fourniture de consultation technique et conception d'architecture pour votre prochain grand projet."
+    }
+  },
+  "PORTFOLIO": {
+    "TITLE": "Mon",
+    "PORTFOLIO": "Portfolio",
+    "SUBTITLE": "Quelques-uns de mes projets récents",
+    "CODE": "Code",
+    "LIVE": "Démo"
+  },
+  "CONTACT": {
+    "TITLE": "Entrer en",
+    "TOUCH": "Contact",
+    "SUBTITLE": "Travaillons ensemble",
+    "INFO_TITLE": "Informations de Contact",
+    "INFO_DESC": "N'hésitez pas à me contacter pour toute demande ou collaboration sur des projets.",
+    "EMAIL": "Email",
+    "PHONE": "Téléphone",
+    "LOCATION": "Localisation",
+    "FORM": {
+      "NAME": "Votre Nom",
+      "EMAIL": "Votre Email",
+      "SUBJECT": "Sujet",
+      "MESSAGE": "Votre Message",
+      "SEND": "Envoyer le Message"
+    }
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Développeur Full Stack & Designer UI/UX passionné par la création d'applications web belles et fonctionnelles.",
+    "QUICK_LINKS": "Liens Rapides",
+    "SERVICES": "Services",
+    "CONTACT_INFO": "Informations de Contact",
+    "RIGHTS": "Tous droits réservés."
+  }
+}
