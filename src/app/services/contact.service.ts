@@ -20,7 +20,7 @@ export interface ApiResponse {
   providedIn: 'root'
 })
 export class ContactService {
-  private apiUrl = 'http://localhost:3000/api/contact';
+  private apiUrl = 'https://portfolio-backend-production-a507.up.railway.app/api/contact';
 
   constructor(private http: HttpClient) {}
 
